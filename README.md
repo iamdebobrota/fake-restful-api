@@ -1,6 +1,6 @@
 # Fake RESTful API
 
-A fake RESTful API for testing purposes, running using the npm module **json-server**. You can easily deploy the API to services like Heroku by simply pushing the repository there.
+A fake RESTful API for testing purposes, running using the npm module **json-server**. You can easily deploy the API to services like render, cyclic by simply pushing the repository there.
 
 ## Installation
 
@@ -10,24 +10,9 @@ Run npm to install all dependencies:
 npm install
 ```
 
-Now you are ready to deploy to Heroku:
+Now you are ready to deploy to render:
+https://www.notion.so/Deploy-Json-Server-28c6992f0c42439991164a54c75cebae?pvs=4
 
-```sh
-# Login with your Heroku account
-heroku login
-
-# Create the project
-heroku create your-api-project-name
-
-# Deploy to Heroku
-git push heroku master
-```
-
-Test your API by running:
-
-```sh
-heroku open
-```
 
 ## Editing the initial data
 
